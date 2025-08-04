@@ -128,8 +128,8 @@ if __name__ == "__main__":
 
     # Display summary statistics
     print("\nEvaporation Statistics:")
-    print(f"Mean evaporation: {df['penman_evaporation'].mean():.3f} mm/h")
-    print(f"Max evaporation: {df['penman_evaporation'].max():.3f} mm/h")
+    print(f"Mean evaporation: {df['penman_evaporation'].mean():.3f} mm/d")
+    print(f"Max evaporation: {df['penman_evaporation'].max():.3f} mm/d")
 
     # print("\nGenerating plots...(1000 rows samples)")
 
