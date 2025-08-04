@@ -49,7 +49,7 @@ class PenmanEvaporation:
             t_min (float): Minimum air temperature (°C)
             rh_mean (float): Mean relative humidity (%)
             rs (float): Solar radiation (MJ/m²/day)
-            u (float, optional): Wind speed at 10m height (m/s)
+            u (float, optional): Wind speed at 2m height (m/s)
             wind_function (str): Wind function to use ('penman1948', 'penman1956', 'linacre1993')
 
         Returns:
